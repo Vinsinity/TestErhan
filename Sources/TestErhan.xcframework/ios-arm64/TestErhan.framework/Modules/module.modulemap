@@ -1,0 +1,11 @@
+framework module TestErhan {
+  umbrella header "TestErhan.h"
+
+  export *
+  module * { export * }
+}
+
+module TestErhan.Swift {
+  header "TestErhan-Swift.h"
+  requires objc
+}
